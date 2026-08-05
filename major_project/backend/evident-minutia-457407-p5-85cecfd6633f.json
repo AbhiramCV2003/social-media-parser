@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "evident-minutia-457407-p5",
+  "private_key_id": "85cecfd6633f8d1703c2a6f35917bbf36fc536c2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCju9g1lw2R8tYF\nXzV65t/W5qqyw+siephXW0c4jD+qLt0Rqh3CNPNfH3oB6Wgv8v2gWFKcMABV+xMb\nRc+1mfxMEM26l+egwljd9/rIWkE9fz8U1QxsP8YW6G/Z5VCwndRc6RhzMw/2Y7oC\nrVSwt3/2o9pfE49zTpGMcdQrNhncKG2XC3FEm7wdPZyDsJz0MiGuaGgmPmqVh0ef\nioteZ2Cc/AJDFRQjoqMDqnaLZEg29mLNBVQTb0fGPziiib84f6K6/hQ/z/4XvZkr\nIxDbwqUKh+fuDRAhzYp9tXacALRM0TgKmRRsDyEzsBdxdFrWrsuONtHLVXxvqdM6\n9E2losIxAgMBAAECggEAAY5Lpei3S4t97qOit7YBawKanSPA9H0rPOtEYDxu73BO\nD/iomzuTE3SSXXnJEGmT8OXd9Rd8rVR7MD9n058wt01SkyMV46BtJUDRvH0lEQ9I\nO2ux2EZ73KRdSboE3ATH65EYdyHFVU9JyXQ5sYsw11hjvxMJwiv9NJMxU67KLJ4e\n0g9ekZbhmePZBDAh5c51vf2RW/6OMJKNcaa+qHmbe3KfEW+iCR7rwvM2jJYHi9if\nMOe9DVJ1BwXk7MsRE+vJ+UrI1ztJIEQ2IxFObdDgdawoj+pTdzovieimoqbBOp+D\nJ4joXngWRiSpemi6FK34fqxlsFcgbBCcZdDNfV1etQKBgQDgveyeOHqgNzRVTVcJ\n30m8l0vexXslOSSI3+j8SXObVxrtXEBsgejgWWSMfXbbpH+QyquFrm8CAwMPvx2z\nEHdBZqcZWOKUG7N/RhdaHFkiGqkv7WI4NhY7xSh+T5z6dvKAGGe502PDROgAtxEm\nORuL8PHIaoLsdV2pzMnCAIYGbQKBgQC6gbAWlY2olPjFS97U+3q4JhdbagwPJgYK\nM2AR66HhaMdHpX01jjeZZ5X475P1t+f0bQ4VE0uP3jFj5276YdgfHLzfjwHSK/8/\nSoDFMCC9ZJFxKeyP9bmqJbeZ7x6cZAEimhfoDvnIg2nMf7lvBv77hXivDGvj3K+o\nlkRRaIkgVQKBgQCCDqbt8TVVnlzUuIsUFXmwf8XSR2o6YlU4OIu15DPYw5G7ptVJ\ndex0WIcNnlW4SfvgqMiV9hobie6toCXpyC+bU3KEAqIsn9NCZieBaEJUsCUUrUVX\nzkUTlccXQa9QaqFva7ArI5/qEuhH8akk+4trcqYZGzpk6I6pgu+HK5JkCQKBgG2Z\nKFEdMVGPuWC3ZQrjfQoZ2D/v4YZFYec8qYfeYBKF8BU6OonuON388TSIFPqgR75r\nF4tq+0xf1cZPife457fgu1zkPL20/RnEPkeiMJsbLhzB9jHixGgoIexjiCl+2uvq\ngYHsyvv5vYJezCligxRrKrAzLHOKi+8V3q+4LlzBAoGAHdYBeg99qz75GUbhDVWG\nl3XWcxVpUhv66gcAGY8MgTIW765TObRdFywHr24r8iiwFes/bz55piGaHNY/KVcE\nAwMGSqcNcrxfBxxUuxjLz3TCbBaZVky+tmNQX8PPwnx/ci5HjcEI23RkbdIoDufC\n4761bjsMgjSVErPLrCJQblQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "social-parser-storage-manager@evident-minutia-457407-p5.iam.gserviceaccount.com",
+  "client_id": "115614948212506692526",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/social-parser-storage-manager%40evident-minutia-457407-p5.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

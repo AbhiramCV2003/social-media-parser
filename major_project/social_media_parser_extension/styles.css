@@ -1,0 +1,193 @@
+/* --- Global Styles & Body --- */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    width: 320px; /* Slightly wider for better spacing */
+    padding: 15px 20px; /* More padding */
+    background-color: #f8f9fa; /* Lighter grey background */
+    color: #343a40; /* Darker text color */
+    box-sizing: border-box;
+    margin: 0; /* Remove default margin */
+}
+
+* { /* Apply box-sizing globally */
+    box-sizing: inherit;
+}
+
+/* --- Heading --- */
+h3 {
+    text-align: center;
+    color: #0d6efd; /* Primary blue color */
+    margin-top: 0;
+    margin-bottom: 18px;
+    font-weight: 600;
+    border-bottom: 1px solid #dee2e6; /* Subtle separator */
+    padding-bottom: 10px;
+}
+
+/* --- Status Paragraph --- */
+#status {
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 18px;
+    border-radius: 5px;
+    min-height: 1.8em; /* Ensure space even when empty */
+    border: 1px dashed transparent; /* Dashed border for emphasis on status change */
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+    font-style: italic;
+    color: #6c757d; /* Default muted text */
+    background-color: #e9ecef; /* Subtle default background */
+}
+
+#status.info {
+    border-color: #b0c4de; /* Light steel blue border */
+    background-color: #e7f3ff; /* Very light blue background */
+    color: #0a58ca; /* Darker blue text */
+    font-style: normal;
+}
+
+#status.success {
+    background-color: #d1e7dd; /* Light success green */
+    border-color: #badbcc;
+    color: #0f5132; /* Dark success green */
+    font-style: normal;
+    font-weight: 500;
+}
+
+#status.error {
+    background-color: #f8d7da; /* Light error red */
+    border-color: #f5c2c7;
+    color: #842029; /* Dark error red */
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* --- Labels --- */
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #495057; /* Slightly lighter dark */
+    font-size: 0.9em;
+}
+
+/* --- Input Fields --- */
+input[type="text"],
+input[type="url"] {
+    width: 100%;
+    padding: 9px 12px;
+    border: 1px solid #ced4da; /* Standard grey border */
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 1em;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    background-color: #fff;
+}
+
+input[type="text"]:focus,
+input[type="url"]:focus {
+    border-color: #86b7fe; /* Focus blue */
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25); /* Bootstrap-like focus shadow */
+}
+
+/* --- Buttons (General) --- */
+button {
+    width: 100%;
+    padding: 10px 15px;
+    margin-top: 10px; /* Add some space above buttons */
+    border: none;
+    border-radius: 5px;
+    background-color: #0d6efd; /* Bootstrap primary blue */
+    color: white;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease, opacity 0.2s ease;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #0b5ed7; /* Darker blue on hover */
+}
+
+button:active {
+    background-color: #0a58ca; /* Even darker blue on click */
+}
+
+button:disabled {
+    background-color: #6c757d; /* Muted grey when disabled */
+    cursor: not-allowed;
+    opacity: 0.65;
+}
+
+/* --- Specific Button Styling --- */
+#generateReportBtn {
+    margin-bottom: 15px; /* Space below main button */
+}
+
+#saveSettingsBtn {
+    background-color: #6c757d; /* Secondary grey color */
+    margin-top: 5px; /* Less space above save */
+}
+
+#saveSettingsBtn:hover {
+    background-color: #5a6268;
+}
+
+#saveSettingsBtn:active {
+    background-color: #545b62;
+}
+
+
+/* --- Register Link Area --- */
+p.register-link-container {
+    text-align: center;
+    font-size: 0.9em; /* Slightly smaller text */
+    margin-top: 12px;
+    margin-bottom: 0;
+    color: #6c757d;
+}
+
+#registerLinkBtn {
+    /* Override general button styles to look like a link */
+    display: inline;
+    width: auto;
+    padding: 0; /* No padding */
+    margin: 0 0 0 3px; /* Reset margins, add tiny left space */
+    font-size: inherit; /* Inherit size from parent p */
+    background-color: transparent;
+    color: #0d6efd; /* Link blue */
+    border: none;
+    text-decoration: underline;
+    font-weight: normal; /* Not bold like regular buttons */
+    cursor: pointer;
+    vertical-align: baseline; /* Align with text */
+}
+
+#registerLinkBtn:hover {
+    background-color: transparent;
+    color: #0a58ca; /* Darker link blue */
+    text-decoration: none;
+}
+
+#registerLinkBtn:active {
+     background-color: transparent;
+     color: #0a58ca;
+}
+
+#registerLinkBtn:disabled {
+     color: #adb5bd; /* Lighter grey when disabled */
+     text-decoration: none;
+     cursor: not-allowed;
+     opacity: 0.7;
+}
+
+/* --- Horizontal Rules --- */
+hr {
+    border: none;
+    border-top: 1px solid #dee2e6; /* Standard subtle separator */
+    margin: 18px 0; /* More vertical spacing */
+}

@@ -1,0 +1,30 @@
+<!--popup.html-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Parser Helper</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h3>Parser Helper</h3>
+    <p id="status" aria-live="polite">Enter your username and generate report.</p>
+
+    <!-- Examiner Username Input -->        
+    <label for="examinerUsernameInput">Username:</label>
+    <input type="text" id="examinerUsernameInput" placeholder="Enter your app username" required>
+
+    <!-- Single button to trigger the whole process -->
+    <button id="generateReportBtn">Generate Full Report</button>
+    <hr>
+    <p style="font-size: 0.8em; text-align: center;">
+        Don't have an account? <button id="registerLinkBtn" style="padding: 2px 5px; width: auto; font-size: 0.9em;">Register Here</button>
+    </p>
+    <hr>
+    <label for="backendUrlInput">Backend API URL:</label>
+    <input type="url" id="backendUrlInput" placeholder="http://localhost:5001/api/report" required>
+    <button id="saveSettingsBtn">Save Backend URL</button>
+
+    <script src="popup.js"></script>
+</body>
+</html>

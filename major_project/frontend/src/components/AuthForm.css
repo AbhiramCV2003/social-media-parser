@@ -1,0 +1,103 @@
+/* frontend/src/components/AuthForm.css */
+
+.auth-form {
+    max-width: 400px;
+    margin: 2rem auto; /* Center form */
+    padding: 2rem;
+    border: 1px solid #444; /* Darker border */
+    border-radius: 8px;
+    background-color: #2e2e2e; /* Slightly lighter dark background */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.auth-form div {
+    margin-bottom: 1rem; /* Space between form fields */
+}
+
+.auth-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #ccc; /* Lighter label text */
+    font-weight: bold;
+    text-align: left;
+}
+
+.auth-form input[type="text"],
+.auth-form input[type="email"], /* Add email type if you use it */
+.auth-form input[type="password"] {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #555; /* Input border */
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding in width */
+    background-color: #3a3a3a; /* Input background */
+    color: #eee; /* Input text color */
+    font-size: 1rem;
+}
+
+.auth-form input:focus {
+    outline: none;
+    border-color: #777; /* Highlight focus */
+    box-shadow: 0 0 0 2px rgba(100, 100, 100, 0.2);
+}
+
+.auth-form button[type="submit"] {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff; /* Example primary color */
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.auth-form button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.auth-form button[type="submit"]:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+}
+
+.auth-form .error-message {
+    color: #ff4d4d; /* Red for errors */
+    background-color: #442222; /* Dark red background */
+    border: 1px solid #ff4d4d;
+    padding: 0.75rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+/* Styling for the main page container (optional) */
+.auth-page {
+   text-align: center;
+   padding-top: 3rem;
+   min-height: 100vh;
+   color: #eee; /* Light text color for the page */
+}
+
+.auth-page h1 {
+    margin-bottom: 2rem;
+    color: #fff; /* White heading */
+}
+
+ .auth-page p {
+     margin-top: 1.5rem;
+     font-size: 0.9rem;
+     color: #aaa; /* Dimmer text for links */
+ }
+
+ .auth-page a {
+    color: #61dafb; /* React blue for links */
+    text-decoration: none;
+ }
+
+ .auth-page a:hover {
+    text-decoration: underline;
+ }

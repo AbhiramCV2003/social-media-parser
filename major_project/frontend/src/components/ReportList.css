@@ -1,0 +1,106 @@
+/* src/components/ReportList.css */
+
+.report-list-container {
+    margin-top: 2rem;
+    padding: 0 1rem; /* Add some padding */
+  }
+  
+  .report-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    background-color: #2e2e2e; /* Match form background */
+    color: #eee;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 4px; /* Optional rounding */
+    overflow: hidden; /* Ensures border radius applies to corners */
+  }
+  
+  .report-table th,
+  .report-table td {
+    border: 1px solid #444; /* Darker border for cells */
+    padding: 10px 12px;
+    text-align: left;
+    vertical-align: middle;
+  }
+  
+  .report-table th {
+    background-color: #3a3a3a; /* Slightly darker header */
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .report-table tbody tr:nth-child(even) {
+    background-color: #333; /* Subtle striping */
+  }
+  
+  .report-table tbody tr:hover {
+    background-color: #4a4a4a; /* Highlight on hover */
+  }
+  
+  .report-table code {
+    font-family: monospace;
+    background-color: #444;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-size: 0.85em;
+  }
+  
+  .status-badge {
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    display: inline-block; /* Ensure background covers text */
+  }
+  
+  .status-completed { background-color: #28a745; } /* Green */
+  .status-generating, .status-received, .status-queued { background-color: #17a2b8; } /* Blue/Cyan */
+  .status-processing { background-color: #ffc107; color: #333 } /* Yellow */
+  .status-failed { background-color: #dc3545; } /* Red */
+  .status-unknown { background-color: #6c757d; } /* Grey */
+  
+  .error-tooltip {
+    cursor: help;
+    margin-left: 5px;
+  }
+  
+  .download-button {
+    padding: 4px 10px;
+    font-size: 0.85rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .download-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .download-button:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+  }
+  
+  .status-note {
+      font-style: italic;
+      color: #888;
+  }
+  
+  /* Shared error message style (can be moved to a global CSS) */
+  .error-message {
+      color: #ff4d4d;
+      background-color: #442222;
+      border: 1px solid #ff4d4d;
+      padding: 0.75rem;
+      border-radius: 4px;
+      margin-bottom: 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+  }
